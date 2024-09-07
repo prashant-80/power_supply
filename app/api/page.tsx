@@ -1,8 +1,8 @@
-import axios from "axios";
+//import axios from "axios";
 import { toast } from "react-toastify";
 
 
-const apiUrl = "http://esp8266-server/api/set-power";
+//const apiUrl = "http://esp8266-server/api/set-power";
 
 const handleSet = async (voltage: number, current: number) => {
     try {
