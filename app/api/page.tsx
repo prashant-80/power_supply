@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 //const apiUrl = "http://esp8266-server/api/set-power";
 
-const handleSet = async (voltage: number, current: number) => {
+const handleSet = async (voltage: number, current: number): Promise<void> => {
     try {
         // const response = await axios.post(apiUrl, {
         //     setvoltage: voltage,
